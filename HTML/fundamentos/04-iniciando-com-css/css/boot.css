@@ -1,0 +1,57 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.radius{
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius:15px;
+}
+
+/* Botões */
+
+.btn{
+    padding: 8px 20px;
+    font-weight: normal;
+    margin: 0 4px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+    text-decoration: none;
+}
+
+.btn_green{
+    background-color: #009933;
+    color: #fff;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn_green:hover{
+    background-color: #00cc66;
+
+}
+
+.btn_red{
+    background-color: #FF0000;
+    color: #fff;
+}
+
+.btn_red:hover{
+    background-color: #F08080;
+}
+
+.btn_blue{
+    background-color: #4169E1;
+    color: #fff;
+}
+
+.btn_blue:hover{
+    background-color: #2F80ED;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>08-servindo-tags-para-formularios_propriedades</title>
+</head>
+<body>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Meu formulário</legend>
+                <p>
+                    Insira seu nome: <input type="text" required placeholder="Digite seu nome">
+                </p>
+                <p>
+                    Insira seu CPF: <input type="text" required placeholder="Digite seu CPF" pattern="\d{3}.\d{3}\.\d{3}\-\{2}">
+                </p>
+                <p>
+                    Insira seu email: <input type="email" required="">
+                </p>
+                <p>
+                    Insira o senha: <input type="password" required="required" placeholder="Digite uma senha segura">
+                </p>
+                <p>
+                    Insira seu senha: <br>
+                    <input type="radio" name="sexo">Masculino<br>
+                    <input type="radio" name="sexo">Feminino
+                </p>
+                <p>
+                    Informe sua tecnologia preferida: <br>
+                    <input type="checkbox">HTML5 <br>
+                    <input type="checkbox">CSS3 <br>
+                    <input type="checkbox">PHP <br>
+                    <input type="checkbox">jQuery <br>
+                </p>
+                <p>
+                    Selecione um arquivo: <input type="file">
+                </p>
+                <p>
+                    Informe uma URL: <input type="url">
+                </p>
+                <p>
+                    Selecione um curso: <br>
+                    <select name="" id="">
+                        <optgroup label="Curso de Desenvolvimento">
+                            <option value="">HTML5 e CSS3 Essentials</option>
+                            <option value="">Git WorkFlow</option>
+                        </optgroup>
+                        <optgroup label="Curso de Programação">
+                            <option value="">jQuery Essentials</option>
+                        </optgroup>
+                        
+                    </select>
+                </p>
+
+                <p>
+                    Range: <input type="range">
+                </p>
+                <p>
+                    Color Pick: <input type="color">
+                </p>
+                <p>
+                    Data: <input type="date">
+                </p>
+                <p>
+                    Time: <input type="time">
+                </p>
+                <p>
+                    Date time: <input type="datetime-local">
+                </p>
+                <p>
+                    Month: <input type="month">
+                </p>
+                <p>
+                    Week: <input type="week">
+                </p>
+
+                <p>
+                    <button type="submit">Validar!</button>
+                    <button type="reset">Limpar</button>
+                </p>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
