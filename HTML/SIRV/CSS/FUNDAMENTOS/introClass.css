@@ -1,0 +1,53 @@
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  background-color: #dc143c7e;
+  text-shadow: 3px 3px 1px #90b3d3;
+  padding: 20px;
+}
+
+h2 {
+  background-color: #7c0202;
+  color: #fff;
+  padding: 15px;
+}
+
+p {
+  background-color: #ccc;
+}
+
+.width {
+  width: 60%;
+}
+
+.height {
+  width: 60%;
+  height: 80px;
+}
+
+.destaque {
+  background: #e5a133;
+}
+
+.padding {
+  padding: 25px 60px 35px 40px;
+}
+
+.margin {
+  margin: 25px 60px 35px 40px;
+}
+
+.border {
+  border: 2px solid #7c0202;
+}
+
+.bordertop {
+  border-top: 5px double #7c0202;
+  border-right: 5px double #7c0202;
+}
+
+.borderbottom {
+  border-bottom: 3px dashed #7c0202;
+  border-left: 3px dashed #7c0202;
+}
