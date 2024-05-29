@@ -51,3 +51,11 @@ p {
   border-bottom: 3px dashed #7c0202;
   border-left: 3px dashed #7c0202;
 }
+
+.outline {
+  outline: 5px dashed #00539f;
+}
+
+.borda2 {
+  border: 5px dashed #7c0202;
+}
